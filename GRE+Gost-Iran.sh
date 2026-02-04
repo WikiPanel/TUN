@@ -1,8 +1,8 @@
 #!/bin/bash
 set -e
 
-read -p "Enter IRAN public IP: " IR_IP
 read -p "Enter KHAREJ public IP: " KH_IP
+read -p "Enter IRAN public IP: " IR_IP
 
 cat <<EOF > /etc/netplan/gre1.yaml
 network:
