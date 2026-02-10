@@ -42,8 +42,8 @@ ensure_packages() {
 }
 
 download_binaries() {
-  local udp2raw_url="https://github.com/wangyu-/udp2raw/releases/download/20230206.0/udp2raw_binaries.tar.gz"
-  local tinyvpn_url="https://github.com/wangyu-/tinyfecVPN/releases/download/20230206.0/tinyvpn_binaries.tar.gz"
+  local udp2raw_url="https://wikihost.info/-files/x-other/udp2raw_binaries.tar.gz"
+  local tinyvpn_url="https://wikihost.info/-files/x-other/tinyvpn_binaries.tar.gz"
 
   info "Downloading udp2raw binaries..."
   rm -f /tmp/udp2raw_binaries.tar.gz
