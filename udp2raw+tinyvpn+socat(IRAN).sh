@@ -42,12 +42,12 @@ ensure_packages() {
 }
 
 download_binaries() {
- # local udp2raw_url="http://193.228.169.195/udp2raw_binaries.tar.gz"
- # local tinyvpn_url="http://193.228.169.195/tinyvpn_binaries.tar.gz"
+   local udp2raw_url="http://193.228.169.195/udp2raw_binaries.tar.gz"
+  local tinyvpn_url="http://193.228.169.195/tinyvpn_binaries.tar.gz"
 
   
-  local udp2raw_url="https://wikihost.info/-files/x-other/udp2raw_binaries.tar.gz"
-  local tinyvpn_url="https://wikihost.info/-files/x-other/tinyvpn_binaries.tar.gz"
+ # local udp2raw_url="https://wikihost.info/-files/x-other/udp2raw_binaries.tar.gz"
+#  local tinyvpn_url="https://wikihost.info/-files/x-other/tinyvpn_binaries.tar.gz"
   
   info "Downloading udp2raw binaries..."
   rm -f /tmp/udp2raw_binaries.tar.gz
